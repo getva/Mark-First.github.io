@@ -185,3 +185,11 @@ body {
 .name-pro {
     text-align: center;
   }
+  /* ============================================================= */
+
+  .footer {
+    width: 100%;
+    height: 350px;
+    margin-top: 2rem;
+    background-color: #f9f9f9;
+  }
