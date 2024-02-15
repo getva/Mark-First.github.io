@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  /* background-image: url(../../Images/painting-mountain-lake-with-mountain-background.jpg); */
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
@@ -12,19 +12,18 @@ body {
   min-height: 100vh;
   background-color: #e4e9f7;
 }
+.top-page {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-bottom: 5px solid rgb(211, 211, 211);
+  position: fixed;
+  top: 0;
+}
 
 .container-width {
   max-width: 1520px;
   margin: 0 auto;
   text-align: center;
-}
-
-.top-page {
-  background-color: rgb(255, 255, 255);
-  width: 100%;
-  border-bottom: 5px solid rgb(211, 211, 211);
-  position: sticky;
-  top: 0;
 }
 
 .menu-bar {
@@ -37,25 +36,30 @@ body {
 .navigation {
   display: flex;
 }
-.menu-bar img {
+.logo img {
   width: 100px;
   margin-left: 2rem;
 }
+.text-bar {
+  margin-left: 4rem;
+}
 
 .menu-bar ul {
-  display: inline-block;
   list-style-type: none;
   color: #fff;
 }
 .menu-bar ul li {
-  display: inline-block;
+  display: inline-flex;
+  flex-wrap: nowrap;
   margin: 10px;
   padding: 10px;
 }
 
 .menu-bar ul li a {
+  /* font-family: "pop",sans-serif; */
   text-decoration: none;
   color: #050505;
+  font-size: 15px;
 }
 .buttom-box {
   margin-right: 2rem;
@@ -64,7 +68,6 @@ body {
   border-style: none;
 }
 .nav-buttom button {
-  
   justify-content: space-between;
   padding: 7px;
   border-radius: 15px;
@@ -75,93 +78,48 @@ body {
 .nav-buttom button:hover {
   background-color: #8f67ff;
 }
-/* =============================================== */
-.image-container-width {
-  width: 100%;
-  display: flex;
-  margin-bottom: 100px;
-  /* position: absolute; */
+.nav-top {
+  
 }
-.image-container {
+.nav-box {
   width: 100%;
-  height: 500px;
-  background-color: #8f67ff;
+  background-color: #e4e9f7;
   display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1rem;
 }
-.image-container img {
+
+.nav-image {
+  /* background-color: #8f67ff; */
+  background-image: url("src/123.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
   width: 100%;
-  max-height: 500px;
+  height: 450px;
   object-fit: cover;
-}
-.image-container img:hover {
-  filter: blur(50px);
-  transition: all 0.5s;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 1524px;
-  display: block;
   justify-content: center;
-  align-items: center;
+}
+
+.nav-text{
+  
+  color: #000000;
+  justify-content: center;
   text-align: center;
-  margin: 10rem auto;
+  margin-top: 12rem;
 }
-.overlay h1 {
-  color: #fff;
-  font-size: 65px;
+.nav-text h1 {
+  font-size: 60px;
 }
-.overlay h2 {
-  color: #fff;
-  font-size: 25px;
+.nav-text h2 {
+  font-size: 30px;
 }
-.overlay button {
-  width: 400px;
-  height: 90px;
-  margin: 20px ;
-
-  font-size: 15px;
-  color: #fff;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0)
-  );
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+/* ============================================================================ */
+.product {
+  margin: 2.5rem auto;
 }
-
-.btnimage button:hover {
-  cursor: pointer;
-  transition: all 0s;
-
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0)
-  );
-  backdrop-filter: blur(100px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
-/* ================================= Product ======================== */
 .model {
   display: inline-block;
   width: 253px;
   padding: 8px;
-
   margin: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 8px;
@@ -179,11 +137,10 @@ body {
   justify-content: space-around;
 }
 
-.price p{
+.price p {
   font-weight: bold;
 }
-.size p{
-
+.size p {
   display: flex;
 }
 .model button {
@@ -195,21 +152,22 @@ body {
   color: #fff;
   background-color: #8f67ff;
 }
-.name-pro button:hover {
-  background-color: #e4e9f7;
+.model button:hover {
+  background-color: #9570fc;
 }
 /* ============================================================= */
 
-.footer {
+#footer {
   text-align: center;
   width: 100%;
   background-color: #f9f9f9;
   justify-content: center;
+
 }
 .footer-box {
   display: inline-flex;
 }
-.text-footer-bar {
+.text-footer-bar{
   color: #000;
   text-align: center;
   font-family: Poppins;
@@ -217,43 +175,52 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding: 20px 0 10px 0;
 }
 .image-footer {
- margin: 180px 0px 10px 0px;
+  margin: 50px 0px 10px 0px;
 }
 .f-img1 {
-  width: 70px;
+  width: 45px;
   border-radius: 85.895px;
   margin: 0 20px;
-  border: 5px solid #C5C5C5;
+  border: 4px solid #c5c5c5;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.13);
 }
-.f-img1:hover{
+.f-img1:hover {
   filter: blur(0.5px);
 }
 .image-footer {
   display: block;
   text-align: center;
 }
-.image-footer h2{
+.image-footer h2 {
   color: #000;
   text-align: center;
   /* font-family: Ponnala; */
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-.text-footer{
+.text-footer {
   color: #000;
   text-align: center;
   font-family: Poppins;
-  font-size: 25px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 
-  padding-bottom: 10px;
+  padding: 15px 0 10px 0;
 }
+.txt-footer {
+  justify-content: end;
+  align-items: center;
+  font-family: "Khmer OS Battambang",sans-serif;
+
+}
+
+/* ===================================================== */
