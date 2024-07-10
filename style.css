@@ -224,9 +224,7 @@ body {
 
 }
 @media screen and (max-width: 768px) {
-  .nav-buttom{
-    display: none;
-  }
+
   .text-bar{
     display: none;
   }
