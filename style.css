@@ -90,6 +90,7 @@ body {
 .nav-image {
   /* background-color: #8f67ff; */
   background-image: url("src/123.jpg");
+  object-fit: cover;
   background-repeat: no-repeat;
   background-size: 100%;
   
