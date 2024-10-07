@@ -13,4 +13,4 @@ Team 5
 - Main
 ![Screenshot 2024-10-07 154932](https://github.com/user-attachments/assets/3074ac1d-7eeb-4701-a978-410d3bd243cd)
 
-Footer: Lock youseft https://heudiva.github.io/ShopShoes/
+- Footer: Lock youseft https://heudiva.github.io/ShopShoes/
