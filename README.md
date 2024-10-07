@@ -1,4 +1,4 @@
-# Year 2 Semester 2
+# Year 2 Semester 1
 Team 5
 -HEU DIVA
 - Mao Tola
