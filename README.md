@@ -8,6 +8,9 @@ Team 5
 - Project Shopping
 - https://heudiva.github.io/ShopShoes/
 + Header
-![image](https://github.com/user-attachments/assets/a7fddc39-4495-4e74-8f9e-faaf49297348)
+![image](https://github.com/user-attachments/assets/4fef7c3b-8a53-4752-abde-8a02108ac16e)
 
+- Main
 ![Screenshot 2024-10-07 154932](https://github.com/user-attachments/assets/3074ac1d-7eeb-4701-a978-410d3bd243cd)
+
+Footer: https://heudiva.github.io/ShopShoes/
